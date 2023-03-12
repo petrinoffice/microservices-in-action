@@ -5,17 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9862632b-ddd7-4059-bb5b-572c6f0cfe69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/microservices-in-action.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/configclient.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/configserver.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/src/main/java/com/cheesecakes/test/config/client/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/src/main/java/com/cheesecakes/test/config/client/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/src/test/java/com/cheesecakes/test/config/client/ConfigClientApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/src/main/java/com/cheesecakes/test/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/src/main/resources/config/licensing-service-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/src/main/resources/config/licensing-service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/src/main/resources/config/test-config-service-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/src/main/resources/config/test-config-service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver/src/test/java/com/cheesecakes/test/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +46,12 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Internationalization">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/SpringCloudConfigurationServer/configserver">
       <ProjectState />
     </projectState>
   </component>
@@ -39,6 +67,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -50,29 +85,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;1ed876725527c6e723b2a2eea5c3b8c8&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/petr/Documents/Projects/microservices-in-action/SpringCloudConfigurationServer/configclient/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "spring.configuration.checksum": "f49ceab1963b8f3f23589ec35229856e",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Spring Boot.LicensingServiceApplication (1)">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringCloudConfigurationServer/configclient/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Internationalization/src/main/resources" />
+      <recent name="$PROJECT_DIR$/SpringCloudConfigurationServer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="configclient.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cheesecakes.test.config.client.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="native" />
+      <module name="configserver.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cheesecakes.test.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LicensingServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Internationalization.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cheesecakes.test.licensingservice.LicensingServiceApplication" />
@@ -87,6 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.LicensingServiceApplication" />
+      <item itemvalue="Spring Boot.LicensingServiceApplication (1)" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,6 +175,9 @@
       <workItem from="1678176441286" duration="711000" />
       <workItem from="1678177222616" duration="99000" />
       <workItem from="1678177351096" duration="458000" />
+      <workItem from="1678177837841" duration="555000" />
+      <workItem from="1678560902272" duration="67000" />
+      <workItem from="1678561081737" duration="5204000" />
     </task>
     <servers />
   </component>
